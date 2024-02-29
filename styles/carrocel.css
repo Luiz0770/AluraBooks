@@ -1,0 +1,26 @@
+.carrocel {
+    background-color: var(--cor-fundo);
+}
+
+.titulo_carrocel {
+    font-size: 18px;
+    font-weight: bold;
+    font-family: var(--fonte-principal);
+    color: var(--cor-laranja);
+    background-color: white;
+    padding: 1.3em 0 0.6em 0;
+    text-align: center;
+}
+
+.swiper-slide img {
+    width: 100%;
+}
+
+.swiper-button-prev, .swiper-button-next {
+    display: none;
+}
+
+.swiper-pagination {
+    position: initial;
+    padding: 0.7em 0;
+}

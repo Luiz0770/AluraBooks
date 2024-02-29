@@ -1,0 +1,37 @@
+.banner {
+    background: var(--degrade);
+    color: white;
+    text-align: center;
+    font-family: var(--fonte-principal);
+    padding: 2.5em 2em;
+    
+    .titulo_banner {
+        font-size: 18px;
+        font-weight: 700;
+    }
+
+    .texto_banner {
+        font-size: 16px;
+        font-weight: 400;
+        margin: 1em;
+    }
+
+    .buscar_banner {
+        background-color: transparent;
+        border: 1px solid white;
+        border-radius: 24px;
+        color: white;
+        padding: 1em;
+        width: 100%;
+    }
+
+    .buscar_banner::placeholder {
+        font-size: 14px;
+        font-weight: 400;
+        text-align: center;
+        color: white;
+        background-image: url(../assets/Vector.svg);
+        background-repeat: no-repeat;
+        background-position: 1.2em;
+    }
+}

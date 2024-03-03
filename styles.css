@@ -17,6 +17,7 @@
     --fonte-principal: 'Poppins';
     --degrade: linear-gradient(90deg, rgba(13,12,43,1) 0%, rgba(22,61,126,1) 100%);
     --fonte-titulo: 'Josefin Sans';
+    --cor-cinza-rodape: rgba(71, 70, 70, 1);
 }
 
 body {

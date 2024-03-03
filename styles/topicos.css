@@ -3,29 +3,39 @@
     text-align: center;
     font-family: var(--fonte-principal);
     padding: 1.5em 0 ;
+}
 
+.titulo_topicos {
+    color: white;
+    font-weight: 300;
+    margin-bottom: 1em;
+}
+
+.lista_topicos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.itens_topicos {
+    margin: 2em 0.5em;
+}
+
+.link_topicos {
+    padding: 1em;
+    background-color: var(--cor-laranja);
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+@media screen and (min-width: 1024px) {
     .titulo_topicos {
-        color: white;
-        font-weight: 300;
-        margin-bottom: 1em;
+        font-size: 24px;
     }
-
-    .lista_topicos {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-
-    .itens_topicos {
-        margin: 2em 0.5em;
-    }
-
+    
     .link_topicos {
-        padding: 1em;
-        background-color: var(--cor-laranja);
-        text-decoration: none;
-        color: white;
-        font-size: 14px;
-        font-weight: bold;
+        font-size: 24px;
     }
 }
